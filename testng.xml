@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <test name="Smoke Test">
+        <classes>
+            <class name="Runners.SmokeTest"></class>
+        </classes>
+    </test>
+    <test name="Regression Test">
+        <classes>
+            <class name="Runners.Regression"></class>
+        </classes>
+    </test>
+
+</suite>
